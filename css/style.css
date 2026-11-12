@@ -103,7 +103,7 @@ b,strong{font-weight:700}
 .programs__head{display:flex;justify-content:space-between;align-items:flex-start;gap:40px}
 .programs__title{font-size:48px;line-height:54px;font-weight:400}
 .programs__desc{max-width:544px;font-size:20px;line-height:30px;color:#b6b6b6;text-align:right}
-.programs__panel{position:relative;margin-top:54px;padding:81px 63px 58px;border-radius:8px;background:#1c1a1a;overflow:hidden}
+.programs__panel{position:relative;margin-top:54px;padding:81px 63px 58px;border-radius:8px;background:#1c1a1a;overflow:hidden;overflow-anchor:none}
 .programs__mark{position:absolute;left:0;bottom:0;width:299px;height:253px;pointer-events:none}
 .programs__list{position:relative}
 .prog{display:grid;grid-template-columns:366px minmax(0,1fr)}

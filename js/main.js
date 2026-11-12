@@ -215,7 +215,7 @@
         .then(function (r) { return r.json().catch(function () { return { ok: r.ok }; }); })
         .then(function (res) {
           if (res && (res.ok || res.success)) {
-            form.reset(); consent.checked = true;
+            form.reset();
             msg.textContent = form.getAttribute('data-success') || 'Спасибо! Заявка отправлена, мы скоро перезвоним.'; msg.classList.add('is-ok');
           } else { throw new Error(); }
         })

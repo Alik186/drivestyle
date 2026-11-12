@@ -24,9 +24,12 @@
     var label = btn.querySelector('span');
     var openText = label.textContent, closeText = btn.getAttribute('data-less-text') || 'Свернуть';
     btn.addEventListener('click', function () {
+      var y = window.pageYOffset;
       var open = panel.classList.toggle('is-open');
       label.textContent = open ? closeText : openText;
-      if (!open) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      /* при раскрытии страница остаётся на месте: браузер сам "держит" кнопку в кадре и уезжает вниз */
+      if (open) window.scrollTo({ top: y, behavior: 'instant' });
+      else panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 

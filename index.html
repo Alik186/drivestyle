@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drive Style — школа водительского мастерства</title>
+<meta name="description" content="Школа водительского мастерства Drive Style: обучение с нуля, адаптация после автошколы, контраварийная подготовка, зимнее вождение, обучение детей с 6 лет.">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/involve-regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 18 18"><path d="M0.707031 17L1.41414 17.7071L17.4141 1.70711L16.707 1L15.9999 0.292893L-7.55191e-05 16.2929L0.707031 17ZM17.707 1C17.707 0.447715 17.2593 0 16.707 0H7.70703C7.15475 0 6.70703 0.447715 6.70703 1C6.70703 1.55228 7.15475 2 7.70703 2H15.707V10C15.707 10.5523 16.1547 11 16.707 11C17.2593 11 17.707 10.5523 17.707 10V1Z" fill="currentColor"/></symbol>
+  <symbol id="i-left" viewBox="0 0 22 16"><path d="M21 8H1M8 1L1 8l7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-right" viewBox="0 0 22 16"><path d="M1 8h20M14 1l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="17 17 25 25"><path d="M22.5666 27.7293C24.349 31.2321 27.2205 34.1037 30.7234 35.8861L33.4464 33.163C33.793 32.8164 34.2757 32.7174 34.7089 32.8536C36.0952 33.3115 37.5805 33.5591 39.1277 33.5591C39.456 33.5591 39.7708 33.6895 40.0029 33.9216C40.235 34.1537 40.3654 34.4686 40.3654 34.7968V39.129C40.3654 39.4572 40.235 39.7721 40.0029 40.0042C39.7708 40.2363 39.456 40.3667 39.1277 40.3667C33.5471 40.3667 28.195 38.1498 24.2489 34.2037C20.3028 30.2576 18.0859 24.9056 18.0859 19.325C18.0859 18.9967 18.2163 18.6819 18.4485 18.4497C18.6806 18.2176 18.9954 18.0872 19.3237 18.0872H23.6558C23.9841 18.0872 24.2989 18.2176 24.531 18.4497C24.7632 18.6819 24.8936 18.9967 24.8936 19.325C24.8936 20.8721 25.1411 22.3574 25.5991 23.7437C25.7352 24.1769 25.6362 24.6597 25.2896 25.0062L22.5666 27.7293Z" fill="currentColor"/></symbol>
+  <symbol id="i-up" viewBox="16 92 26 14"><path d="M17.6934 104.838L28.3057 94.2255C28.6962 93.8349 29.3294 93.8349 29.7199 94.2255L40.3322 104.838" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+</svg>
+
+<header class="header" id="top">
+  <div class="container header__in">
+    <nav class="header__nav header__nav--left">
+      <a href="#programs">Программы</a>
+      <a href="#about">О нас</a>
+      <a href="#instructors" data-instructors-link hidden>Инструкторы</a>
+    </nav>
+    <a class="header__logo" href="#top" aria-label="Drive Style — на главную"><img src="assets/img/logo.png" width="243" height="72" alt="Drive Style"></a>
+    <nav class="header__nav header__nav--right">
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+      <a class="header__phone" href="tel:+79161390689">+7 (916) 139-06-89</a>
+    </nav>
+    <a class="header__mphone" href="tel:+79161390689" aria-label="Позвонить"><img src="assets/icons/phone-m.svg" width="25" height="25" alt=""></a>
+    <button class="header__burger" type="button" aria-label="Меню" data-menu-open><img src="assets/icons/burger.svg" width="27" height="21" alt=""></button>
+  </div>
+</header>
+
+<div class="mmenu" id="mmenu" aria-hidden="true">
+  <div class="mmenu__bg" style="background-image:url(assets/img/menu-bg.jpg)"></div>
+  <div class="mmenu__top">
+    <a class="header__mphone" href="tel:+79161390689" aria-label="Позвонить"><img src="assets/icons/phone-m.svg" width="25" height="25" alt=""></a>
+    <a class="mmenu__logo" href="#top" data-menu-close><img src="assets/img/logo.png" width="139" height="41" alt="Drive Style"></a>
+    <button class="mmenu__close" type="button" aria-label="Закрыть меню" data-menu-close></button>
+  </div>
+  <nav class="mmenu__nav">
+    <a href="#programs" data-menu-close>Программы</a>
+    <a href="#about" data-menu-close>О нас</a>
+    <a href="#instructors" data-menu-close data-instructors-link hidden>Инструкторы</a>
+    <a href="#reviews" data-menu-close>Отзывы</a>
+    <a href="#contacts" data-menu-close>Контакты</a>
+  </nav>
+  <a class="btn btn--blue mmenu__btn" href="tel:+79161390689"><span>Записаться на обучение</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+  <div class="mmenu__dev">Сайт разработан:<a href="https://groupnet.ru" target="_blank" rel="noopener">Groupnet.ru</a></div>
+</div>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero__in">
+    <h1 class="hero__title trim reveal">Школа водительского мастерства</h1>
+    <p class="hero__sub trim reveal">Уверенность за рулем начинается с занятий в <b>Drive Style</b></p>
+    <a class="btn btn--blue hero__btn reveal" href="tel:+79161390689"><span>Записаться на обучение</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+  </div>
+  <div class="hero__media">
+    <picture>
+      <source media="(max-width: 767px)" srcset="assets/img/hero-m.jpg">
+      <img src="assets/img/hero.jpg" alt="Учебный автомобиль на площадке с конусами" width="1440" height="456">
+    </picture>
+  </div>
+</section>
+
+<!-- LEVELS -->
+<section class="levels">
+  <div class="container">
+    <div class="shead shead--tight reveal">
+      <div class="shead__label trim">Программы обучения</div>
+      <h2 class="shead__title trim">Обучаем с любым <br>уровнем подготовки</h2>
+    </div>
+    <div class="levels__grid">
+      <div class="lcard lcard--1 reveal">
+        <span class="lcard__num">01</span>
+        <h3 class="lcard__title">Обучение с нуля</h3>
+        <p class="lcard__text">Обучение с 0 под руководством опытных инструкторов</p>
+      </div>
+      <div class="lcard lcard--2 reveal">
+        <span class="lcard__num">02</span>
+        <h3 class="lcard__title">Базовый курс</h3>
+        <p class="lcard__text">Адаптация навыков вождения после автошколы</p>
+      </div>
+      <div class="lcard lcard--3 reveal">
+        <span class="lcard__num">03</span>
+        <h3 class="lcard__title">Обучение для опытных водителей</h3>
+        <p class="lcard__text">Отработка действий в критических ситуациях, для водителей с ВУ</p>
+      </div>
+      <div class="lcard lcard--4 reveal">
+        <span class="lcard__num">04</span>
+        <h3 class="lcard__title">Центр профессиональной <br>переподготовки</h3>
+        <p class="lcard__text">Повышение квалификации для водителей с базовыми навыками</p>
+        <a class="btn btn--line lcard__btn" href="https://drivestyle.ru/" target="_blank" rel="noopener"><span>Подробнее</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section class="programs" id="programs">
+  <div class="container">
+    <div class="programs__head reveal">
+      <h2 class="programs__title trim">Программы обучения</h2>
+      <p class="programs__desc trim">Выберите направление обучения в зависимости от ваших целей, уровня подготовки и опыта</p>
+    </div>
+    <div class="programs__panel reveal">
+      <img class="programs__mark" src="assets/icons/mark.svg" width="299" height="253" alt="" aria-hidden="true">
+      <div class="programs__list">
+        <article class="prog">
+          <div class="prog__side">
+            <div class="prog__num">Программа 1</div>
+            <div class="prog__count">8 занятий</div>
+          </div>
+          <div class="prog__main">
+            <h3 class="prog__title">Основы управления автомобилем</h3>
+            <div class="prog__desc"><p>Формирование базовых устойчивых навыков безопасного вождения. Подготовка предназначена для начинающих водителей, выполняющих повседневные задачи при управлении автомобилем.</p></div>
+            <ul class="prog__facts">
+              <li>Курс:<b>8 занятий</b></li>
+              <li>Продолжительность:<b>1 или 2 часа</b></li>
+              <li>Стоимость:<b>1600 руб/час</b></li>
+            </ul>
+            <a class="btn btn--line prog__btn" href="tel:+79161390689"><span>Записаться</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="prog">
+          <div class="prog__side">
+            <div class="prog__num">Программа 2</div>
+            <div class="prog__count">3 занятия</div>
+          </div>
+          <div class="prog__main">
+            <h3 class="prog__title">Прогрессивная методика обучения</h3>
+            <div class="prog__desc"><p>Прогрессивная методика безопасного управления автомобилем в различных режимах: Город-Трасса.</p></div>
+            <div class="prog__plan">
+              <div class="prog__plan-title">Программа:</div>
+              <ol>
+                <li>Отработка проезда перекрестков</li>
+                <li>Различные виды перестроений</li>
+                <li>Все виды парковки</li>
+              </ol>
+            </div>
+            <ul class="prog__facts">
+              <li>Курс:<b>3 занятия</b></li>
+              <li>Продолжительность:<b>3 часа/занятие</b></li>
+              <li>Стоимость:<b>2000 руб/час</b></li>
+            </ul>
+            <a class="btn btn--line prog__btn" href="tel:+79161390689"><span>Записаться</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="prog prog--more">
+          <div class="prog__side">
+            <div class="prog__num">Программа 3</div>
+            <div class="prog__count">4 занятия</div>
+          </div>
+          <div class="prog__main">
+            <h3 class="prog__title">Зимнее вождение</h3>
+            <div class="prog__desc"><p>Управление автомобилем в сложных дорожных условиях. Скользкая дорога, лед, снег, наледь, колея, снежная "каша", оттепель, аквапланирование (водная преграда).</p></div>
+            <ul class="prog__facts">
+              <li>Курс:<b>4 занятия</b></li>
+              <li>Продолжительность:<b>2 часа/занятие</b></li>
+              <li>Стоимость:<b>2000 руб/час</b></li>
+            </ul>
+            <a class="btn btn--line prog__btn" href="tel:+79161390689"><span>Записаться</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="prog prog--more">
+          <div class="prog__side">
+            <div class="prog__num">Программа 4</div>
+            <div class="prog__count">4 занятия</div>
+          </div>
+          <div class="prog__main">
+            <h3 class="prog__title">Контраварийная подготовка</h3>
+            <div class="prog__desc"><p>Машина потеряла устойчивость! Перестала управляться! Возник занос/снос/разворот! В боковом положении несется как неуправляемый болид! Контраварийная подготовка дает ответ на все эти вопросы.</p><p>Занятие проводится со 100% безопасностью под руководством команды профессиональных автоспортивных тренеров.</p></div>
+            <ul class="prog__facts">
+              <li>Курс:<b>4 занятия</b></li>
+              <li>Продолжительность:<b>2 часа/занятие</b></li>
+              <li>Стоимость:<b>2000 руб/час</b></li>
+            </ul>
+            <a class="btn btn--line prog__btn" href="tel:+79161390689"><span>Записаться</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="prog prog--more">
+          <div class="prog__side">
+            <div class="prog__num">Программа 5</div>
+            <div class="prog__count">Индивидуальное кол-во</div>
+          </div>
+          <div class="prog__main">
+            <h3 class="prog__title">Моторспорт. Начальная спортивная подготовка.</h3>
+            <div class="prog__desc"><p>Индивидуальные занятия от тренера-преподавателя по автомотоспорту, защитному вождению и контраварийной практике.</p></div>
+            <ul class="prog__facts">
+              <li>Стоимость:<b>2000 руб/час</b></li>
+            </ul>
+            <a class="btn btn--line prog__btn" href="tel:+79161390689"><span>Записаться</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="prog prog--more">
+          <div class="prog__side">
+            <div class="prog__num">Программа 6</div>
+            <div class="prog__count">Индивидуальное кол-во</div>
+          </div>
+          <div class="prog__main">
+            <h3 class="prog__title">Мотоспорт + Специализированная спортивная подготовка по выбранной дисциплине автоспорта</h3>
+            <div class="prog__desc"><p>Индивидуальные занятия от тренера-преподавателя по автомотоспорту, защитному вождению и контраварийной практике.</p></div>
+            <ul class="prog__facts">
+              <li>Стоимость:<b>по согласованию</b></li>
+            </ul>
+            <a class="btn btn--line prog__btn" href="tel:+79161390689"><span>Записаться</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="prog prog--more">
+          <div class="prog__side">
+            <div class="prog__num">Программа 7</div>
+            <div class="prog__count">Индивидуальное кол-во</div>
+          </div>
+          <div class="prog__main">
+            <h3 class="prog__title">Практика подготовки водителей спецслужб</h3>
+            <div class="prog__desc"><p>Программа предназначена для сотрудников силовых подразделений. Автомобиль как средство защиты - автомобиль как средство атаки.</p></div>
+            <ul class="prog__facts">
+              <li>Стоимость:<b>по согласованию</b></li>
+            </ul>
+            <a class="btn btn--line prog__btn" href="tel:+79161390689"><span>Записаться</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+      </div>
+      <button class="programs__more" type="button" data-more data-less-text="Свернуть"><span>Показать все</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- SCIENCE / KIDS -->
+<section class="features">
+  <div class="container">
+    <div class="frow reveal">
+      <div class="fcard fcard--left">
+        <div class="fcard__label"><b>Инновационный подход</b><span>Технологии, меняющие обучение</span></div>
+        <h2 class="fcard__title fcard__title--1">Научный подход</h2>
+        <div class="fcard__text" data-collapse>
+          <p class="fcard__lead">Drive Style внедряет инновационные методики подготовки водителей, разработанные с использованием экспериментальной лабораторной базы профильной кафедры вуза.</p>
+          <p>Специальные датчики позволяют исследовать реакции организма на различные дорожные ситуации, оценивать концентрацию, стрессоустойчивость и скорость реакции. Полученные данные помогают совершенствовать программу обучения и раскрывать потенциал каждого водителя.</p>
+        </div>
+        <button class="more-link" type="button" data-collapse-btn>Развернуть...</button>
+        <a class="btn btn--red fcard__btn" href="tel:+79161390689"><span>Записаться на обучение</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="fimg fimg--right"><img src="assets/img/science.jpg" alt="Исследование реакций водителя с помощью датчиков" width="615" height="833" loading="lazy"></div>
+    </div>
+    <div class="frow frow--rev reveal">
+      <div class="fimg fimg--left"><img src="assets/img/kids.jpg" alt="Инструктор обучает ребенка управлению картом" width="625" height="833" loading="lazy"></div>
+      <div class="fcard fcard--right">
+        <div class="fcard__label fcard__label--red">( обучаем детей с 6 лет )</div>
+        <h2 class="fcard__title fcard__title--2">За руль с самого детства</h2>
+        <div class="fcard__text" data-collapse>
+          <p class="fcard__lead">Формируем культуру безопасного поведения на дороге с ранних лет. Учимся сегодня — становимся ответственными водителями завтра.</p>
+          <p>В Drive Style мы обучаем детей от 6 лет основам управления транспортом, развиваем внимание, координацию, быстроту реакции и понимание правил дорожного движения. Через практические занятия и индивидуальный подход помогаем ребёнку получить первые навыки управления и заложить фундамент будущей водительской культуры.</p>
+        </div>
+        <button class="more-link" type="button" data-collapse-btn>Развернуть...</button>
+        <a class="btn btn--red fcard__btn" href="tel:+79161390689"><span>Записать ребенка</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="shead reveal">
+      <div class="shead__label trim">Отзывы</div>
+      <div class="shead__row">
+        <h2 class="shead__title trim">Более 130 положительных <br>отзывов на Авито</h2>
+        <div class="reviews__arrows">
+          <button class="rarrow rarrow--prev" type="button" aria-label="Предыдущий отзыв" data-rev-prev><svg><use href="#i-left"/></svg></button>
+          <button class="rarrow rarrow--next" type="button" aria-label="Следующий отзыв" data-rev-next><svg><use href="#i-right"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="reviews__track reveal" data-reviews>
+      <div class="rcard">
+        <h3 class="rcard__title">Не ожидала таких результатов</h3>
+        <p class="rcard__text">Обратилась за восстановлением навыков вождения.<br>Уже на третьем занятии гораздо увереннее почувствовала себя за рулём.</p>
+        <div class="rcard__author"><img src="assets/img/avatar-1.jpg" width="50" height="50" alt=""><div><div>Арина</div><div>25.09.2026</div></div></div>
+      </div>
+      <div class="rcard">
+        <h3 class="rcard__title">Очень довольна обучением</h3>
+        <p class="rcard__text">Обратилась к Георгию с целью убрать страх и восстановить навыки вождения после перерыва в 2 года. С задачей справились, выезжали в центр...</p>
+        <div class="rcard__author"><img src="assets/img/avatar-2.jpg" width="50" height="50" alt=""><div><div>Мария</div><div>10.09.2026</div></div></div>
+      </div>
+      <div class="rcard">
+        <h3 class="rcard__title">Отличный инструктор!</h3>
+        <p class="rcard__text">Пришла к Георгию после автошколы были проблемы с вождением, Георгий отличный инструктор идите к нему не пожалеете...</p>
+        <div class="rcard__author"><img src="assets/img/avatar-3.jpg" width="50" height="50" alt=""><div><div>Ольга</div><div>07.09.2026</div></div></div>
+      </div>
+    </div>
+    <div class="reviews__all reveal">
+      <div class="reviews__all-label">Читать все отзывы:</div>
+      <a class="btn btn--white reviews__avito" href="https://www.avito.ru/" target="_blank" rel="noopener" aria-label="Отзывы на Авито"><img src="assets/icons/avito.svg" width="114" height="29" alt="Avito"></a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="shead reveal">
+      <div class="shead__label trim">О нас</div>
+      <div class="shead__row">
+        <h2 class="shead__title trim">О школе Drive Style</h2>
+        <p class="shead__desc trim">Не просто вождение. Настоящее мастерство управления автомобилем.</p>
+      </div>
+    </div>
+    <h3 class="about__pubs-title reveal">Публикации в СМИ:</h3>
+    <div class="about__grid">
+      <div class="pubs reveal" data-pubs>
+        <a class="pub" href="docs/publication.pdf#page=1" target="_blank" rel="noopener"><img src="assets/img/pub-1.jpg" alt="Статья «Активная безопасность при заносе в автоспорте», журнал «Физическая культура: воспитание, образование, тренировка» №4-2016, стр. 74" width="295" height="452" loading="lazy"></a>
+        <a class="pub" href="docs/publication.pdf#page=2" target="_blank" rel="noopener"><img src="assets/img/pub-2.jpg" alt="Статья «Активная безопасность при заносе в автоспорте», журнал «Физическая культура: воспитание, образование, тренировка» №4-2016, стр. 75" width="287" height="440" loading="lazy"></a>
+        <a class="pub" href="docs/publication.pdf#page=3" target="_blank" rel="noopener"><img src="assets/img/pub-3.jpg" alt="Статья «Активная безопасность при заносе в автоспорте», журнал «Физическая культура: воспитание, образование, тренировка» №4-2016, стр. 76" width="277" height="424" loading="lazy"></a>
+      </div>
+      <div class="about__divider"></div>
+      <div class="about__list reveal">
+        <div class="afeat">
+          <div class="afeat__head"><img src="assets/icons/precision.svg" width="24" height="24" alt=""><h4 class="trim">Создаем сильных водителей</h4></div>
+          <p class="trim">Наша цель — подготовить водителей, которые уверенно чувствуют себя за рулём, грамотно оценивают дорожную обстановку и умеют принимать решения.</p>
+        </div>
+        <div class="afeat">
+          <div class="afeat__head"><img src="assets/icons/diamond.svg" width="24" height="24" alt=""><h4 class="trim">Обучение с профессионалами</h4></div>
+          <p class="trim">Drive Style объединяет опытных специалистов и эффективные методики обучения, позволяющие раскрыть потенциал каждого ученика.</p>
+        </div>
+        <div class="afeat">
+          <div class="afeat__head"><img src="assets/icons/security.svg" width="24" height="24" alt=""><h4 class="trim">Инвестиция в безопасность</h4></div>
+          <p class="trim">Мы убеждены, что водительское мастерство — это не роскошь, а необходимый навык. Поэтому делаем профессиональную подготовку доступной каждому, кто стремится к совершенству.</p>
+        </div>
+      </div>
+    </div>
+    <div class="about__btns reveal">
+      <a class="btn btn--line2 about__btn" href="docs/publication.pdf" target="_blank" rel="noopener" data-pub-open><span>Открыть публикацию</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--white about__btn" href="tel:+79161390689"><span>Записаться на обучение</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- INSTRUCTORS: блок временно скрыт. Показать: убрать класс is-hidden у section и атрибут hidden у ссылок data-instructors-link -->
+<section class="instructors is-hidden" id="instructors">
+  <div class="container">
+    <div class="shead reveal">
+      <div class="shead__label trim">Команда профессионалов</div>
+      <div class="shead__row">
+        <h2 class="shead__title trim">Инструкторы Drive Style</h2>
+        <p class="shead__desc trim">Вашими наставниками станут профессионалы</p>
+      </div>
+    </div>
+    <div class="instr__grid" data-instr>
+      <div class="instr reveal">
+        <div class="instr__info"><h3 class="instr__name">Ирина<br>Чикипики</h3><p class="instr__bio">Текст биографии текст биографии текст биографии<br>Текст иографии</p></div>
+        <div class="instr__photo"><img src="assets/img/instr-1.jpg" alt="Ирина Чикипики" width="295" height="452" loading="lazy"></div>
+      </div>
+      <div class="instr reveal">
+        <div class="instr__info"><h3 class="instr__name">Паша<br>Безумный</h3><p class="instr__bio">Текст биографии текст биографии текст биографии<br>Текст иографии</p></div>
+        <div class="instr__photo"><img src="assets/img/instr-2.jpg" alt="Паша Безумный" width="295" height="452" loading="lazy"></div>
+      </div>
+      <div class="instr reveal">
+        <div class="instr__info"><h3 class="instr__name">Татьяна<br>Алексеева</h3><p class="instr__bio">Текст биографии текст биографии текст биографии<br>Текст иографии</p></div>
+        <div class="instr__photo"><img src="assets/img/instr-3.jpg" alt="Татьяна Алексеева" width="295" height="452" loading="lazy"></div>
+      </div>
+      <div class="instr reveal">
+        <div class="instr__info"><h3 class="instr__name">Олег<br>Монгол</h3><p class="instr__bio">Текст биографии текст биографии текст биографии<br>Текст иографии</p></div>
+        <div class="instr__photo"><img src="assets/img/instr-4.jpg" alt="Олег Монгол" width="295" height="452" loading="lazy"></div>
+      </div>
+    </div>
+    <div class="instr__btns reveal">
+      <button class="btn btn--white instr__all" type="button" data-instr-all><span>Показать всех</span></button>
+      <a class="btn btn--line2 instr__btn" href="tel:+79161390689"><span>Записаться на обучение</span><svg class="btn__ar"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOUNDER -->
+<section class="founder">
+  <div class="container">
+    <div class="shead shead--noline-title reveal">
+      <div class="shead__label trim">Основатель&nbsp; Drive Style и ведущий инструктор</div>
+    </div>
+    <div class="founder__photo reveal"><img src="assets/img/founder.jpg" alt="Георги Чавчанидзе" width="1240" height="456" loading="lazy"></div>
+    <h2 class="founder__name trim reveal">Георги Чавчанидзе</h2>
+    <div class="founder__cols">
+      <div class="founder__text reveal" data-collapse>
+        <p>Профессиональный тренер-преподаватель по защитному и контраварийному вождению с опытом работы более 15 лет.</p>
+        <p>Прошёл международную подготовку и сертификацию ROSPA (Великобритания), а также сертификацию австрийской компании Test&amp;Training.</p>
+        <p>За годы профессиональной деятельности подготовил более 5 000 учеников, включая водителей крупных российских компаний: «Газпром», «Роснефть» и «Славнефть».</p>
+        <p class="founder__accent">Его опыт, авторские методики и профессиональный подход лежат в основе обучения Drive Style.</p>
+      </div>
+      <button class="more-link founder__more" type="button" data-collapse-btn>Развернуть...</button>
+      <button class="founder__video reveal" type="button" data-video="" aria-label="Смотреть видео">
+        <img src="assets/img/video.jpg" alt="" width="518" height="411" loading="lazy">
+        <span class="founder__play"><img src="assets/icons/play.svg" width="52" height="52" alt=""><span class="trim">Смотреть видео</span></span>
+      </button>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><div class="stat__num trim">15+ лет</div><div class="stat__cap trim">профессионального опыта</div></div>
+      <div class="stat__line"></div>
+      <div class="stat"><div class="stat__num trim">5 000+</div><div class="stat__cap trim">подготовленных учеников</div></div>
+      <div class="stat__line"></div>
+      <div class="stat"><div class="stat__num trim">ROSPA</div><div class="stat__cap trim">международная сертификация</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FORM -->
+<section class="cta">
+  <div class="container">
+    <div class="cta__card reveal">
+      <h2 class="cta__title trim">Сделайте первый шаг к уверенному вождению</h2>
+      <p class="cta__desc trim">Оставьте заявку и мы поможем подобрать программу обучения с учетом вашего опыта, целей и уровня подготовки</p>
+      <form class="cta__form" action="send.php" method="post" data-lead-form novalidate>
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label class="field"><input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required></label>
+        <label class="field"><input type="tel" name="phone" placeholder="Номер телефона" autocomplete="tel" required></label>
+        <button class="btn btn--white cta__btn" type="submit"><span>Подобрать программу</span><svg class="btn__ar"><use href="#i-arrow"/></svg></button>
+        <label class="consent">
+          <input type="checkbox" name="consent" value="1" checked required>
+          <span class="consent__box"></span>
+          <span class="consent__text trim">Я согласен(на) на обработку персональных данных и принимаю условия <a href="privacy.html" target="_blank">Политики обработки персональных данных</a></span>
+        </label>
+        <div class="cta__msg" data-form-msg></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTS -->
+<section class="contacts" id="contacts">
+  <div class="container">
+    <div class="shead shead--tight shead--dark reveal">
+      <div class="shead__label trim">Контактная информация</div>
+      <h2 class="shead__title trim">Свяжитесь с нами любым <br>удобным способом</h2>
+    </div>
+    <div class="contacts__grid reveal">
+      <div class="contact"><h3>Телефон</h3><a href="tel:+79161390689">+7 (916) 139-06-89</a></div>
+      <div class="contact"><h3>Email</h3><a href="mailto:drivestyle@mail.ru">drivestyle@mail.ru</a></div>
+      <div class="contact"><h3>Адрес</h3><span>г.Москва, м.ЦСКА</span></div>
+      <div class="contact"><h3>Мы в соцсетях</h3>
+        <div class="contact__socials">
+          <a href="https://t.me/" target="_blank" rel="noopener" aria-label="Telegram"><img src="assets/icons/telegram.svg" width="24" height="24" alt="Telegram"></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><img src="assets/icons/youtube.svg" width="32" height="24" alt="YouTube"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__in">
+    <nav class="footer__docs">
+      <a class="trim" href="privacy.html">Политика конфиденциальности</a>
+      <a class="trim" href="terms.html">Пользовательское соглашение</a>
+      <a class="trim" href="cookies.html">Политика использования файлов Cookies</a>
+    </nav>
+    <div class="footer__dev"><span class="trim">Сайт разработан:</span><a href="https://groupnet.ru" target="_blank" rel="noopener">Groupnet.ru</a></div>
+  </div>
+</footer>
+
+<div class="fixed-btns">
+  <a class="fbtn fbtn--phone" href="tel:+79161390689" aria-label="Позвонить"><svg><use href="#i-phone"/></svg></a>
+  <button class="fbtn fbtn--up" type="button" aria-label="Наверх" data-up><svg><use href="#i-up"/></svg></button>
+</div>
+
+<div class="cookie" data-cookie hidden>
+  <p class="cookie__text">Я соглашаюсь на обработку файлов Cookie в соответствии с <a href="privacy.html">Политикой конфиденциальности</a>, <a href="cookies.html">Политикой использования файлов Cookie</a>, ознакомлен и согласен с условиями <a href="terms.html">Пользовательского соглашения</a>, согласен на обработку персональных данных (Согласие на обработку персональных данных)</p>
+  <div class="cookie__btns">
+    <a class="cookie__btn cookie__btn--more" href="cookies.html">Подробнее</a>
+    <button class="cookie__btn cookie__btn--ok" type="button" data-cookie-ok>Согласен</button>
+  </div>
+</div>
+
+<div class="vmodal" data-vmodal hidden>
+  <div class="vmodal__box"><button class="vmodal__close" type="button" aria-label="Закрыть" data-vmodal-close></button><div class="vmodal__media" data-vmodal-media></div></div>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

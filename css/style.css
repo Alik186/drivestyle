@@ -67,7 +67,7 @@ b,strong{font-weight:700}
 .hero__sub{margin:66px auto 0;max-width:386px;font-size:20px;line-height:30px;color:#e1e1e1}
 .hero__sub b{font-weight:700}
 .hero__btn{margin-top:59px;width:354px}
-.hero__media{margin-top:4px;height:456px;overflow:hidden}
+.hero__media{margin-top:4px;height:max(456px,31.667vw);overflow:hidden}
 .hero__media img,.hero__media video{width:100%;height:100%;object-fit:cover}
 
 /* ---------- заголовок секции ---------- */
